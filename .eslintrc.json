@@ -1,0 +1,17 @@
+{
+  "env": {
+    "browser": true,
+    "es2022": true
+  },
+  "extends": ["plugin:react/recommended", "airbnb", "airbnb-typescript"],
+  "parserOptions": {
+    "project": "./tsconfig.json",
+    "ecmaVersion": "latest",
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "plugins": ["react"],
+  "rules": {}
+}
